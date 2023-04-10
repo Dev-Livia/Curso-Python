@@ -11,7 +11,7 @@ while True:
     print('---' * 30)
     Jogador = int(input('Digite um número: '))
     pi = str(input('Par ou ímpar [P/Í]:  ')).upper().strip()
-    Computador = randint(0,101)
+    Computador = randint(0,10 )
     soma = (Jogador + Computador) 
     rest = soma % 2
     if rest == 0 and pi == 'P':
@@ -21,6 +21,7 @@ while True:
     elif rest != 0 and pi == 'P':
         print(f'Você escolheu {Jogador} e o computador {Computador}. Total de {soma} DEU íMPAR')
         print('VOCê PERDEU')
+        break
     elif rest != 0 and pi == 'I':
         Vitoria += 1
         print(f'Você escolheu {Jogador} e o computador {Computador}. Total de {soma} DEU íMPAR')
