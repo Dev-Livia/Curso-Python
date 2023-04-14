@@ -1,11 +1,8 @@
 #Exercício Python 68: Faça um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o jogador perder, mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 from random import randint
-
 print('^' * 20)
 print('VAMOS JOGAR PAR OU ÍMPAR')
 print('^' * 20)
-
-
 Vitoria = 0
 while True:
     print('---' * 30)
@@ -28,6 +25,4 @@ while True:
         print('VOCê VENCEU')
     if rest == 0 and pi == 'I':
         break
-print(f'Você escolheu {Jogador} e o computador {Computador}. Total de {soma} ')
-print(f'GAME OVER ! Você Venceu {Vitoria} Vezes')
-
+print(f'GAME OVER ! Você teve {Vitoria}x vitoria')
