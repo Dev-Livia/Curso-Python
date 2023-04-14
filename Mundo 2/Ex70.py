@@ -26,6 +26,6 @@ while True:
     if opç == 'N':
         break
 print('------ FIM DO PROGRAMA ------')
-print(f'O gasto total dessa compra é R${Total}')
+print(f'O gasto total dessa compra é R${Total:.2f}')
 print(f'Temos {ProdutoCaro} produtos que custa mais de R$ 1.000 ')
-print(f'O nome do produto mais barato é {NomeProduBarato} que custa R$ {ProdutoBarato}')
+print(f'O nome do produto mais barato é {NomeProduBarato} que custa R$ {ProdutoBarato:.2f}')
