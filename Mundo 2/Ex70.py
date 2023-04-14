@@ -12,13 +12,9 @@ while True:
     Total += Valor
     if Valor > 1000:
         ProdutoCaro += 1
-    if c == 1:
+    if c == 1 or Valor < ProdutoBarato:
         ProdutoBarato = Valor
         NomeProduBarato = Produto
-    else:
-        if Valor < ProdutoBarato:
-            ProdutoBarato = Valor
-            NomeProduBarato = Produto
     opç = ' '
     while opç not in 'SN':  
         opç = str(input('Deseja Continuar [S/N]? ')).strip().upper()[0]
