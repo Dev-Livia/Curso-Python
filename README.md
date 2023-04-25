@@ -11,4 +11,13 @@ mas aos poucos farei com que tudo isso fique em ordem com todos os conteúdos :)
    Olá, este repositório contém exercícios propostos pelo professor Gustavo Guanabara, através da plataforma Curso em Vídeo 
 também disponível no YouTube
 
-#
+# Mundo 1 
+*EM BREVE*
+
+# Mundo 2
+*EM BREVE*
+
+# Mundo 3 
+## Aula 16 - Tuplas 
+Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. As tuplas são variáveis compostas e imutáveis que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
+
