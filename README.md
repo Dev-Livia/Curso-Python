@@ -1,7 +1,7 @@
 ### Lista de tarefas:
 - [x] Mundo 1
 - [x] Mundo 2  
-- [ ] Mundo 3
+- [ Em Andamento ] Mundo 3
 - Obs: Talvez estejá faltando alguns exercicíos, pois foram perdidos antes que eu 
 adquire-se conhecimento em git e github,
 mas aos poucos farei com que tudo isso fique em ordem com todos os conteúdos :)
