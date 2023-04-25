@@ -25,9 +25,9 @@ Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. A
 ```
 @@ -0,0 +1,26 @@
 lanche = 'hambúrger', 'Suco', 'Pizza', 'Picolé'
-print(lanche[1]) 
+'''print(lanche[1]) 
 print(lanche[-2])
-print(lanche[1:3])
+print(lanche[1:3])'''
 
 print('=' * 30)
 
@@ -42,4 +42,12 @@ print('=' * 30)
 for comida in lanche:
     print(f'Eu vou comer {comida}')
 print('Hmm estava uma delícia')'''
+
+# O resultado desse programa que está utilizando o FOR : 
+Eu vou comer hambúrger
+Eu vou comer Suco
+Eu vou comer Pizza
+Eu vou comer Picolé
+Hmm estava uma delícia
+
 
