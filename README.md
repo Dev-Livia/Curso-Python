@@ -25,16 +25,18 @@ Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. A
 ```
 @@ -0,0 +1,26 @@
 lanche = 'hambúrger', 'Suco', 'Pizza', 'Picolé'
-print(lanche[1])
-
-''' Outros exemplos: 
+print(lanche[1]) 
 print(lanche[-2])
 print(lanche[1:3])
-'''
+
+print('=' * 30)
+
 # Vocês sabiam que tuplas são imutáveis ?
 
 #Exemplo
 '''lanche[1] = Refrigerante'''
+
+# logo o código dara erro pois enquanto o programa está funcionando é impossivel alterar algum valor
 
 '''Usando o for 
 for comida in lanche:
