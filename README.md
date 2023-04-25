@@ -43,7 +43,7 @@ for comida in lanche:
     print(f'Eu vou comer {comida}')
 print('Hmm estava uma delícia')'''
 
-# O resultado desse programa que está utilizando o FOR : 
+# resultado  : 
 Eu vou comer hambúrger
 Eu vou comer Suco
 Eu vou comer Pizza
