@@ -9,7 +9,7 @@ while True:
     Num = int(input('Digite um número entre 0 e 20: '))
     if 0 <= Num <= 20:
         print('Tente novamente. ', end='')
-        print(f'Você digitou o número {Cont[]}')
+        print(f'Você digitou o número {Cont,[]}')
         opç = str(input('Deseja Continuar? ')).upper().strip()
     if opç == 'N':
         break
