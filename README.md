@@ -21,3 +21,23 @@ também disponível no YouTube
 ## Aula 16 - Tuplas 
 Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. As tuplas são variáveis compostas e imutáveis que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
 
+## Exemplo de como usamos as tuplas:
+```
+@@ -0,0 +1,26 @@
+lanche = 'hambúrger', 'Suco', 'Pizza', 'Picolé'
+print(lanche[1])
+
+''' Outros exemplos: 
+print(lanche[-2])
+print(lanche[1:3])
+'''
+# Vocês sabiam que tuplas são imutáveis ?
+
+#Exemplo
+'''lanche[1] = Refrigerante'''
+
+'''Usando o for 
+for comida in lanche:
+    print(f'Eu vou comer {comida}')
+print('Hmm estava uma delícia')'''
+
