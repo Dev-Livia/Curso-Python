@@ -6,3 +6,8 @@ print(lanche[1])
 print(lanche[-2])
 print(lanche[1:3])
 '''
+
+# TUPLAS SÃO IMUTÁVEIS
+#Exemplo
+
+lanche[1] = 'Refrigerante'
