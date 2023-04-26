@@ -2,7 +2,7 @@
 from random import randint
 numeros = (randint(0,10), randint(0,10), randint(0,10), randint(0,10)
           ,randint(0,10))
-print(f'Os Valores sorteados foram: ', end = '')
+print('Os Valores sorteados foram: ', end = '')
 for n in numeros:
     print(f'{n} ', end='')
 print(f'\n O maior valor sorteado foi {max(numeros)}')
