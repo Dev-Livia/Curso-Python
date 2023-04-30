@@ -49,59 +49,55 @@ Eu vou comer Suco
 Eu vou comer Pizza
 Eu vou comer Picolé
 Hmm estava uma delícia
-```
+``` 
 # Aula 17
 ## Listas:
 
-Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
+```  Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.``` 
 
 uma diferença entre tuplas e listas são:
 Tuplas |  Listas
 :---: | ---:  
-são imutável|são mutáveis
+são imutável|são mutáveis 
 
 Obs: Click [Aqui](https://www.youtube.com/watch?v=N1hTsbW50eM) para acessar essa aula
 
-### Primeiros passos usando lista :
-`` 
-#### Comando append:
-   É usado para adicionar algo a lista
-   
-   Lanche = ['hamburguer', suco', 'pizza', 'picole']
-   
-#### Ao usarmos "Append" a nossa Lista será alterada e o  item "cookie"
- passará a existir na lista
+## Primeiros passos usando lista :
  
+### Comando append: 
+É usado para adicionar algo a lista
+Ex:
+Lanche = ['hamburguer', suco', 'pizza', 'picole']
 #### Ex:
-   Lanche.append(' cookie ')
-   Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']
+Lanche.append(' cookie ')
    
-#### Insert:
-Usamos o comando INSERT quando queremos adicionar um item antes/depois de outro.
+Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']  
+   
+# Insert:
+ Usamos o comando INSERT quando queremos adicionar um item antes/depois de outro.
 
 Ex:
    Lanche.insert(0,'Cachorro-Quente')
    
 #E o resultado dessa alteração é
 
-   Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie ']
+   Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie '] 
 
 #### Comandos para apagar um item da lista:
-Podemos usar:
 
-del lanche(3)
-   ou
+
+del lanche[3]                                     
+:---: 
 lanche.pop()
+Lanche.remove()   
 
-##Observação:
+
+##Observação:         ![baixo-removebg-preview](https://user-images.githubusercontent.com/101743377/235381136-bfd1d2d0-34ee-4cd5-9c1a-caf7306b6731.png)
+
     o comando "pop" geralmente é utilizado para deletar o útimo item da lista, 
     mas podemos deletar o item que quisermos se passarmos pelo parametro, como no exemplo a baixo 
    
-   
-  ![imagem_2023-04-29_231734085](https://user-images.githubusercontent.com/101743377/235332408-2bdd6d49-9aae-4186-abeb-b70f4b1cdef6.png)
-   
-   lanche.pop(3)
-``
+
 
 
 
