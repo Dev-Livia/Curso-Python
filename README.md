@@ -23,7 +23,6 @@ Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. A
 
 ## Exemplo de como usamos as tuplas:
 ```
-@@ -0,0 +1,26 @@
 lanche = 'hambúrger', 'Suco', 'Pizza', 'Picolé'
 '''print(lanche[1]) 
 print(lanche[-2])
@@ -44,10 +43,16 @@ for comida in lanche:
 print('Hmm estava uma delícia')'''
 
 # resultado  : 
+
 Eu vou comer hambúrger
 Eu vou comer Suco
 Eu vou comer Pizza
 Eu vou comer Picolé
 Hmm estava uma delícia
+```
+# Aula 17
+## Listas:
 
+Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
 
+Obs: Click [Aqui](https://www.youtube.com/watch?v=N1hTsbW50eM) para acessar essa aula
