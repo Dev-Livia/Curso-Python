@@ -49,10 +49,68 @@ Eu vou comer Suco
 Eu vou comer Pizza
 Eu vou comer Picolé
 Hmm estava uma delícia
-```
+``` 
 # Aula 17
 ## Listas:
 
-Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
+```  Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.``` 
+
+uma diferença entre tuplas e listas são:
+Tuplas |  Listas
+:---: | ---:  
+são imutável|são mutáveis 
 
 Obs: Click [Aqui](https://www.youtube.com/watch?v=N1hTsbW50eM) para acessar essa aula
+
+## Primeiros passos usando lista :
+ 
+### Comando append: 
+É usado para adicionar algo a lista
+
+## Ex:
+Lanche = ['hamburguer', suco', 'pizza', 'picole']
+
+Lanche.append(' cookie ')
+
+Resultado:
+
+Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']  
+   
+# Insert:
+ Usamos o comando INSERT quando queremos adicionar um item antes/depois de outro.
+
+## Ex:
+
+   Lanche.insert(0,'Cachorro-Quente')
+   
+   Obs: Acima estamos indicando a posição que queremos que o "cachorro-quente" fique.
+   
+### O resultado dessa alteração é
+
+   Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie '] 
+   
+## Comandos para apagar um item da lista:
+
+
+del Lanche[3]                                     
+:---: 
+Lanche.pop()
+Lanche.remove()   
+
+
+## Observação:
+### Pop:
+    Ao utilizarmos o comando Pop, primeiro temos que saber que ele é usado para apagar o ultimo item de uma lista,
+    mas podemos apagar qualquer item da lista se passarmos pelo parâmetro
+    Exemplo:
+    Lanche.pop(3)
+    
+### Remove:
+    Ao utilizarmos o comando Remove, precisaremos passar por parâmetro o nome do item que desejamos excluir
+    Exemplo:
+    Lanche.remove('Pizza')
+   
+
+![Kakashi-Agradecendo-com-o-polegar-em-naruto-removebg-preview](https://user-images.githubusercontent.com/101743377/235382726-75202f70-d29c-4527-b345-aed6ab44de06.png)
+
+
