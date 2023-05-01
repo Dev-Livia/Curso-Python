@@ -78,10 +78,13 @@ Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']
 
 Ex:
    Lanche.insert(0,'Cachorro-Quente')
-   
-#E o resultado dessa alteração é
+
+## Obs: Acima estamos indicando a posição que queremos que o "cachorro-quente" fique.
+
+## E o resultado dessa alteração é
 
    Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie '] 
+   
 
 #### Comandos para apagar um item da lista:
 
