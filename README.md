@@ -66,25 +66,30 @@ Obs: Click [Aqui](https://www.youtube.com/watch?v=N1hTsbW50eM) para acessar essa
  
 ### Comando append: 
 É usado para adicionar algo a lista
-Ex:
+
+## Ex:
 Lanche = ['hamburguer', suco', 'pizza', 'picole']
-#### Ex:
+
 Lanche.append(' cookie ')
-   
+
+Resultado:
+
 Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']  
    
 # Insert:
  Usamos o comando INSERT quando queremos adicionar um item antes/depois de outro.
 
-Ex:
+## Ex:
+
    Lanche.insert(0,'Cachorro-Quente')
+   
    Obs: Acima estamos indicando a posição que queremos que o "cachorro-quente" fique.
    
 ### O resultado dessa alteração é
 
    Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie '] 
    
-#### Comandos para apagar um item da lista:
+## Comandos para apagar um item da lista:
 
 
 del Lanche[3]                                     
