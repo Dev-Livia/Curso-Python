@@ -108,7 +108,7 @@ Lanche.remove()
 ### Remove:
     Ao utilizarmos o comando Remove, precisaremos passar por parâmetro o nome do item que desejamos excluir
     Exemplo:
-    Lanche.remove(Pizza)
+    Lanche.remove('Pizza')
    
 
 ![Kakashi-Agradecendo-com-o-polegar-em-naruto-removebg-preview](https://user-images.githubusercontent.com/101743377/235382726-75202f70-d29c-4527-b345-aed6ab44de06.png)
