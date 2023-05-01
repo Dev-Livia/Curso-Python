@@ -86,19 +86,25 @@ Ex:
 #### Comandos para apagar um item da lista:
 
 
-del lanche[3]                                     
+del Lanche[3]                                     
 :---: 
-lanche.pop()
+Lanche.pop()
 Lanche.remove()   
 
 
-##Observação:         ![baixo-removebg-preview](https://user-images.githubusercontent.com/101743377/235381136-bfd1d2d0-34ee-4cd5-9c1a-caf7306b6731.png)
-
-    o comando "pop" geralmente é utilizado para deletar o útimo item da lista, 
-    mas podemos deletar o item que quisermos se passarmos pelo parametro, como no exemplo a baixo 
+## Observação:
+### Pop:
+    Ao utilizarmos o comando Pop, primeiro temos que saber que ele é usado para apagar o ultimo item de uma lista,
+    mas podemos apagar qualquer item da lista se passarmos pelo parâmetro
+    Exemplo:
+    Lanche.pop(3)
+    
+### Remove:
+    Ao utilizarmos o comando Remove, precisaremos passar por parâmetro o nome do item que desejamos excluir
+    Exemplo:
+    Lanche.remove(Pizza)
    
 
-
-
+![Kakashi-Agradecendo-com-o-polegar-em-naruto-removebg-preview](https://user-images.githubusercontent.com/101743377/235382726-75202f70-d29c-4527-b345-aed6ab44de06.png)
 
 
