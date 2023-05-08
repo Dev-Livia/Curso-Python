@@ -32,6 +32,21 @@ Olá, Mundo
 Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str().
 Além disso, veremos como fazer as primeiras operações com a função print() do Python.
 
+# int:
+é responsável por armazenar números inteiros.
+Ex: 1, 2, 3... -1, 0
+
+# Float:
+é responsavel por armazenar números reais.
+Ex: 4.5, 0.075, -15.223
+
+# Bool:
+é responsável por aceitar apenas dois tipos de números
+Ex: True or False
+
+# Str
+Aceita quelquer tipo de dado:
+Ex: 'Olá', 20, 7.0
 ```
 
 # Mundo 2
