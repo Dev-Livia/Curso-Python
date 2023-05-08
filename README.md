@@ -1,3 +1,7 @@
+# Este é o README do curso Python 3 
+   Olá, este repositório contém exercícios propostos pelo professor Gustavo Guanabara, através da plataforma Curso em Vídeo 
+também disponível no YouTube
+
 ### Lista de tarefas:
 - [x] Mundo 1
 - [x] Mundo 2  
@@ -6,22 +10,57 @@
 adquire-se conhecimento em git e github,
 mas aos poucos farei com que tudo isso fique em ordem com todos os conteúdos :)
 
-
-# Este é o README do curso Python 3 
-   Olá, este repositório contém exercícios propostos pelo professor Gustavo Guanabara, através da plataforma Curso em Vídeo 
-também disponível no YouTube
-
 # Mundo 1 
-*EM BREVE*
+### Primeiros comandos 
+```
+Vamos realizar nosso primeiro comando em python, nesse comando vamos imprimir uma mensagem:
+podemos usar:
+
+print('Olá, Mundo!!')
+
+ou podemos armazenar o texto em uma variável e imprimir como no exemplo a baixo:
+
+msg = 'Olá, Mundo'
+print(msg)
+
+Resultado:
+Olá, Mundo
+```
+
+### Aula 06 - Tipos Primitivos e Saída de Dados
+```
+Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str().
+Além disso, veremos como fazer as primeiras operações com a função print() do Python.
+
+# int:
+é responsável por armazenar números inteiros.
+Ex: 1, 2, 3... -1, 0
+
+# Float:
+é responsavel por armazenar números reais.
+Ex: 4.5, 0.075, -15.223
+
+# Bool:
+é responsável por aceitar apenas dois tipos de números
+Ex: True or False
+
+# Str
+Aceita quelquer tipo de dado:
+Ex: 'Olá', 20, 7.0
+```
 
 # Mundo 2
 *EM BREVE*
 
 # Mundo 3 
 ## Aula 16 - Tuplas 
-Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. As tuplas são variáveis compostas e imutáveis que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
+```
+Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python.
+As tuplas são variáveis compostas e imutáveis que permitem armazenar vários valores em uma mesma estrutura,3
+acessíveis por chaves individuais.
+```
 
-## Exemplo de como usamos as tuplas:
+### Exemplo de como usamos as tuplas:
 ```
 lanche = 'hambúrger', 'Suco', 'Pizza', 'Picolé'
 '''print(lanche[1]) 
@@ -51,10 +90,13 @@ Eu vou comer Picolé
 Hmm estava uma delícia
 ``` 
 # Aula 17
-## Listas:
 
-```  Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.``` 
-
+### Listas:
+```
+ Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python.
+ As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura,
+ acessíveis por chaves individuais.
+```
 uma diferença entre tuplas e listas são:
 Tuplas |  Listas
 :---: | ---:  
@@ -65,31 +107,32 @@ Obs: Click [Aqui](https://www.youtube.com/watch?v=N1hTsbW50eM) para acessar essa
 ## Primeiros passos usando lista :
  
 ### Comando append: 
+```
 É usado para adicionar algo a lista
 
-## Ex:
+# Ex:
+
 Lanche = ['hamburguer', suco', 'pizza', 'picole']
-
 Lanche.append(' cookie ')
-
 Resultado:
 
 Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']  
-   
+  
 # Insert:
+
  Usamos o comando INSERT quando queremos adicionar um item antes/depois de outro.
 
-## Ex:
+# Ex:
 
    Lanche.insert(0,'Cachorro-Quente')
    
    Obs: Acima estamos indicando a posição que queremos que o "cachorro-quente" fique.
-   
-### O resultado dessa alteração é
+
+ O resultado dessa alteração é
 
    Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie '] 
-   
-## Comandos para apagar um item da lista:
+```   
+### Comandos para apagar um item da lista:
 
 
 del Lanche[3]                                     
@@ -113,4 +156,5 @@ Lanche.remove()
 
 ![Kakashi-Agradecendo-com-o-polegar-em-naruto-removebg-preview](https://user-images.githubusercontent.com/101743377/235382726-75202f70-d29c-4527-b345-aed6ab44de06.png)
 
+#
 
