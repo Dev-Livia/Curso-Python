@@ -12,16 +12,39 @@ mas aos poucos farei com que tudo isso fique em ordem com todos os conteúdos :)
 também disponível no YouTube
 
 # Mundo 1 
-*EM BREVE*
+### Primeiros comandos 
+```
+Vamos realizar nosso primeiro comando em python, nesse comando vamos imprimir uma mensagem:
+podemos usar:
+
+print('Olá, Mundo!!')
+
+ou podemos armazenar o texto em uma variável e imprimir como no exemplo a baixo:
+
+msg = 'Olá, Mundo'
+print(msg)
+
+Resultado:
+Olá, Mundo
+```
+
+### Aula 06 - Tipos Primitivos e Saída de Dados
+```
+Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str().
+Além disso, veremos como fazer as primeiras operações com a função print() do Python.
+
+```
 
 # Mundo 2
 *EM BREVE*
 
 # Mundo 3 
 ## Aula 16 - Tuplas 
+```
 Nessa aula, vamos aprender o que são TUPLAS e como utilizar tuplas em Python. As tuplas são variáveis compostas e imutáveis que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
+```
 
-## Exemplo de como usamos as tuplas:
+### Exemplo de como usamos as tuplas:
 ```
 lanche = 'hambúrger', 'Suco', 'Pizza', 'Picolé'
 '''print(lanche[1]) 
@@ -29,21 +52,21 @@ print(lanche[-2])
 print(lanche[1:3])'''
 
 print('=' * 30)
-
-# Vocês sabiam que tuplas são imutáveis ?
-
+```
+### Vocês sabiam que tuplas são imutáveis ?
+```
 #Exemplo
 '''lanche[1] = Refrigerante'''
-
-# logo o código dara erro pois enquanto o programa está funcionando é impossivel alterar algum valor
-
+```
+### logo o código dara erro pois enquanto o programa está funcionando é impossivel alterar algum valor
+```
 '''Usando o for 
 for comida in lanche:
     print(f'Eu vou comer {comida}')
 print('Hmm estava uma delícia')'''
-
-# resultado  : 
-
+```
+### resultado  : 
+```
 Eu vou comer hambúrger
 Eu vou comer Suco
 Eu vou comer Pizza
@@ -51,10 +74,11 @@ Eu vou comer Picolé
 Hmm estava uma delícia
 ``` 
 # Aula 17
-## Listas:
 
-```  Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.``` 
-
+### Listas:
+```
+ Nessa aula, vamos aprender o que são LISTAS e como utilizar listas em Python. As listas são variáveis compostas que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais.
+```
 uma diferença entre tuplas e listas são:
 Tuplas |  Listas
 :---: | ---:  
@@ -65,31 +89,32 @@ Obs: Click [Aqui](https://www.youtube.com/watch?v=N1hTsbW50eM) para acessar essa
 ## Primeiros passos usando lista :
  
 ### Comando append: 
+```
 É usado para adicionar algo a lista
-
-## Ex:
+```
+### Ex:
+```
 Lanche = ['hamburguer', suco', 'pizza', 'picole']
-
 Lanche.append(' cookie ')
-
 Resultado:
 
 Lanche = ['hamburguer', suco', 'pizza', 'picole', ' cookie ']  
-   
+```   
 # Insert:
+```
  Usamos o comando INSERT quando queremos adicionar um item antes/depois de outro.
-
-## Ex:
-
+```
+### Ex:
+```
    Lanche.insert(0,'Cachorro-Quente')
    
    Obs: Acima estamos indicando a posição que queremos que o "cachorro-quente" fique.
-   
+```
 ### O resultado dessa alteração é
-
+```
    Lanche = ['Cachorro-Quente', 'hamburguer', suco', 'pizza', 'picole', ' cookie '] 
-   
-## Comandos para apagar um item da lista:
+```   
+### Comandos para apagar um item da lista:
 
 
 del Lanche[3]                                     
@@ -113,4 +138,5 @@ Lanche.remove()
 
 ![Kakashi-Agradecendo-com-o-polegar-em-naruto-removebg-preview](https://user-images.githubusercontent.com/101743377/235382726-75202f70-d29c-4527-b345-aed6ab44de06.png)
 
+#
 
