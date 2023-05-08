@@ -48,6 +48,46 @@ Ex: True or False
 Aceita quelquer tipo de dado:
 Ex: 'Olá', 20, 7.0
 ```
+### Indentificando os tipos primitivos :
+
+type | Vai analisar e retornar o tipo que foi digitado 
+:---: | ---: 
+isspace | Vai indentificar se possui apenas espaços  
+isnumeric | Vai indentificar se os valores são apenas números
+isalpha | Vai analisar se os valores são apenas alfabéticos
+isalnum | Vai analisar se os valores digitados são apenas números
+isupper | Essa função indentifica se os valores digitados então em letras maiúsculas
+islower | Essa função indentifica se os valores digitados estão em letras minúsculas
+istitle | Essa função vai analisar se existe nas palavras letras minúsculas e maiúsculas
+
+### Exemplo: 
+
+```
+al = input('Digite algo: ')
+print('O tipo primitivo desse valor é ', type(al))
+print('Só tem espaços? ', al.isspace())
+print('é um número? ', al.isnumeric())
+print('é alfabético? ', al.isalpha())
+print('É alfanumérico? ', al.isalnum())
+print('Está em maiúsculas? ', al.isupper())
+print('Está em mínusculas?', al.islower())
+print('Está captalizada? ', al.istitle())
+
+RESULTADO
+
+Digite algo: Python
+O tipo primitivo desse valor é  <class 'str'>
+Só tem espaços?  False
+é um número?  False
+é alfabético?  True
+É alfanumérico?  True
+Está em maiúsculas?  False
+Está em mínusculas? False
+Está captalizada?  True
+
+```
+
+
 
 # Mundo 2
 *EM BREVE*
