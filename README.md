@@ -102,6 +102,14 @@ Veja como funcionam os operadores de adição, subtração, multiplicação, div
 ' // '| Divisão Inteira
 ' % '| Resto da Divisão
 
+## Ordem de Precedência
+1 | ( )
+:---: | ---: 
+2 | **
+3 | *, /, //, %
+4 | +, -
+
+
 
 # Mundo 2
 *EM BREVE*
