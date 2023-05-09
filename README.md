@@ -87,6 +87,28 @@ Está captalizada?  True
 
 ```
 
+### Aula 7 
+Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. 
+Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
+
+## Operações Aritméticas :
+
+' + '| Adição
+:---: | ---: 
+' - '| Subtração
+' * '| Multiplicação
+' / '| Divisão
+' ** ' | Potência
+' // '| Divisão Inteira
+' % '| Resto da Divisão
+
+## Ordem de Precedência
+1 | ( )
+:---: | ---: 
+2 | **
+3 | *, /, //, %
+4 | +, -
+
 
 
 # Mundo 2
