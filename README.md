@@ -121,10 +121,10 @@ From Random Import randint| Ao execultar este código, Voçê importará apenas 
 
 # Vamos aprender um pouco sobre algumas funcionalidades dos módulos?
 ## Módulo matc
-ceil | É responsável por fazer um arredondamento para cima 
+ceil | faz arredondamento para cima 
 :---: | ---: 
-floor | É responsável por fazer arredondamento para baixo
-trunc | elimina o número
+floor | faz arredondamento para baixo
+trunc | elimina números
 pow | é utilizado para fazer calculos de potência
 sqrt | Calcula raiz Quadrada
 factorial | Faz calculo factorial
