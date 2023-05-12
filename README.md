@@ -130,7 +130,7 @@ sqrt | Calcula raiz Quadrada
 factorial | Faz calculo factorial
 
 ### Exemplo a baixo 
-         ↓↓↓
+   ↓↓↓
 ``` 
 import math
 num = int(input('Digite um número: '))
