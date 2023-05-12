@@ -129,6 +129,15 @@ pow | é utilizado para fazer calculos de potência
 sqrt | Calcula raiz Quadrada
 factorial | Faz calculo factorial
 
+### Exemplo a baixo 
+         ↓↓↓
+``` 
+import math
+num = int(input('Digite um número: '))
+raiz = math.sqrt(num)
+print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
+```
+
 
 # Mundo 2
 *EM BREVE*
