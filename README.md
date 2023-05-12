@@ -125,7 +125,7 @@ ceil | É responsável por fazer um arredondamento para cima
 :---: | ---: 
 floor | É responsável por fazer arredondamento para baixo
 trunc | elimina o número
-pow | podemos utilizar ele como potência e subistituir por **
+pow | é utilizado para fazer calculos de potência
 sqrt | Calcula raiz Quadrada
 factorial | Faz calculo factorial
 
