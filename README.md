@@ -113,6 +113,11 @@ Veja como funcionam os operadores de adição, subtração, multiplicação, div
 Nessa aula, vamos aprender como utilizar módulos em Python utilizando os comandos import e from/import no Python.
 Veja como carregar bibliotecas de funções e utilizar vários recursos adicionais nos seus programas utilizando módulos built-in e módulos externos, oferecidos no Pypi.
 
+## Comando para fazer importações de Módulos
+
+Import Random | Ao execultar esse código ele vai importar tudo o que existe dentro do modulo de Random
+:---: | ---: 
+From Random Import randint| Ao execultar este código, Voçê importará apenas o item escolhido 
 
 # Mundo 2
 *EM BREVE*
