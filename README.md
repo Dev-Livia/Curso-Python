@@ -119,6 +119,17 @@ Import Random | Ao execultar esse código ele vai importar tudo o que existe den
 :---: | ---: 
 From Random Import randint| Ao execultar este código, Voçê importará apenas o item escolhido 
 
+# Vamos aprender um pouco sobre algumas funcionalidades dos módulos?
+## Módulo matc
+ceil | É responsável por fazer um arredondamento para cima 
+:---: | ---: 
+floor | É responsável por fazer arredondamento para baixo
+trunc | elimina o número
+pow | podemos utilizar ele como potência e subistituir por **
+sqrt | Calcula raiz Quadrada
+factorial | Faz calculo factorial
+
+
 # Mundo 2
 *EM BREVE*
 
