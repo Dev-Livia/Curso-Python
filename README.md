@@ -109,6 +109,9 @@ Veja como funcionam os operadores de adição, subtração, multiplicação, div
 3 | *, /, //, %
 4 | +, -
 
+### Aula 08 - Utilizando Módulos
+Nessa aula, vamos aprender como utilizar módulos em Python utilizando os comandos import e from/import no Python.
+Veja como carregar bibliotecas de funções e utilizar vários recursos adicionais nos seus programas utilizando módulos built-in e módulos externos, oferecidos no Pypi.
 
 
 # Mundo 2
