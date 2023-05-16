@@ -138,6 +138,21 @@ raiz = math.sqrt(num)
 print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
 ```
 
+### Aula 9
+Nessa aula, vamos aprender operações com String no Python. As principais operações que vamos aprender são o Fatiamento de String,
+Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().
+
+len()| retorna o comprimento de uma sequência, como uma string, lista ou tupla.
+:---: | ---: 
+count() | retorna o número de ocorrências de um determinado elemento em uma sequência.
+find() | retorna o índice da primeira ocorrência de uma substring em uma string. Retorna -1 se a substring não for encontrada.
+replace() | substitui todas as ocorrências de uma substring por outra substring em uma string.
+upper() | converte todos os caracteres de uma string para letras maiúsculas.
+lower() | converte todos os caracteres de uma string para letras minúsculas.
+capitalize() | converte o primeiro caractere de uma string para maiúscula e os demais para minúsculas.
+title() | converte a primeira letra de cada palavra em uma string para maiúscula e o restante para minúsculas.
+strip() | remove espaços em branco no início e no final de uma string.
+join() | junta os elementos de uma sequência em uma única string, usando um separador especificado.
 
 # Mundo 2
 *EM BREVE*
