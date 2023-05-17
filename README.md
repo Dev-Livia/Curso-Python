@@ -2,7 +2,7 @@
    Olá, este repositório contém exercícios propostos pelo professor Gustavo Guanabara, através da plataforma Curso em Vídeo 
 também disponível no YouTube
 
-### Lista de tarefas:
+### - Lista de tarefas:
 - [x] Mundo 1
 - [x] Mundo 2  
 - [ Em Andamento ] Mundo 3
@@ -10,8 +10,8 @@ também disponível no YouTube
 adquire-se conhecimento em git e github,
 mas aos poucos farei com que tudo isso fique em ordem com todos os conteúdos :)
 
-# Mundo 1 
-### Primeiros comandos 
+# - Mundo 1 
+### - Primeiros comandos 
 ```
 Vamos realizar nosso primeiro comando em python, nesse comando vamos imprimir uma mensagem:
 podemos usar:
@@ -27,7 +27,7 @@ Resultado:
 Olá, Mundo
 ```
 
-### Aula 06 - Tipos Primitivos e Saída de Dados
+### - Aula 06 - Tipos Primitivos e Saída de Dados
 ```
 Nessa aula, vamos aprender como funcionam os tipos primitivos no Python e as peculiaridades do int() float() bool() e str().
 Além disso, veremos como fazer as primeiras operações com a função print() do Python.
@@ -48,7 +48,7 @@ Ex: True or False
 Aceita quelquer tipo de dado:
 Ex: 'Olá', 20, 7.0
 ```
-### Indentificando os tipos primitivos :
+### - Indentificando os tipos primitivos :
 
 type | Vai analisar e retornar o tipo que foi digitado 
 :---: | ---: 
@@ -60,7 +60,7 @@ isupper | Essa função indentifica se os valores digitados então em letras mai
 islower | Essa função indentifica se os valores digitados estão em letras minúsculas
 istitle | Essa função vai analisar se existe nas palavras letras minúsculas e maiúsculas
 
-### Exemplo: 
+### - Exemplo: 
 
 ```
 al = input('Digite algo: ')
@@ -87,11 +87,11 @@ Está captalizada?  True
 
 ```
 
-### Aula 7 
+### - Aula 7 
 Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. 
 Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
 
-## Operações Aritméticas :
+## - Operações Aritméticas :
 
 ' + '| Adição
 :---: | ---: 
@@ -102,25 +102,25 @@ Veja como funcionam os operadores de adição, subtração, multiplicação, div
 ' // '| Divisão Inteira
 ' % '| Resto da Divisão
 
-## Ordem de Precedência
+## - Ordem de Precedência
 1 | ( )
 :---: | ---: 
 2 | **
 3 | *, /, //, %
 4 | +, -
 
-### Aula 08 - Utilizando Módulos
+### - Aula 08 - Utilizando Módulos
 Nessa aula, vamos aprender como utilizar módulos em Python utilizando os comandos import e from/import no Python.
 Veja como carregar bibliotecas de funções e utilizar vários recursos adicionais nos seus programas utilizando módulos built-in e módulos externos, oferecidos no Pypi.
 
-## Comando para fazer importações de Módulos
+## - Comando para fazer importações de Módulos
 
 Import Random | Ao execultar esse código ele vai importar tudo o que existe dentro do modulo de Random
 :---: | ---: 
 From Random Import randint| Ao execultar este código, Voçê importará apenas o item escolhido 
 
-# Vamos aprender um pouco sobre algumas funcionalidades dos módulos?
-## Módulo matc
+# - Vamos aprender um pouco sobre algumas funcionalidades dos módulos?
+## - Módulo matc
 ceil | faz arredondamento para cima 
 :---: | ---: 
 floor | faz arredondamento para baixo
@@ -129,7 +129,7 @@ pow | é utilizado para fazer calculos de potência
 sqrt | Calcula raiz Quadrada
 factorial | Faz calculo factorial
 
-### Exemplo a baixo 
+### - Exemplo a baixo 
    ↓↓↓
 ``` 
 import math
@@ -138,6 +138,21 @@ raiz = math.sqrt(num)
 print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
 ```
 
+### - Aula 9
+Nessa aula, vamos aprender operações com String no Python. As principais operações que vamos aprender são o Fatiamento de String,
+Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().
+
+len()| retorna o comprimento de uma sequência, como uma string, lista ou tupla.
+:---: | ---: 
+count() | retorna o número de ocorrências de um determinado elemento em uma sequência.
+find() | retorna o índice da primeira ocorrência de uma substring em uma string. Retorna -1 se a substring não for encontrada.
+replace() | substitui todas as ocorrências de uma substring por outra substring em uma string.
+upper() | converte todos os caracteres de uma string para letras maiúsculas.
+lower() | converte todos os caracteres de uma string para letras minúsculas.
+capitalize() | converte o primeiro caractere de uma string para maiúscula e os demais para minúsculas.
+title() | converte a primeira letra de cada palavra em uma string para maiúscula e o restante para minúsculas.
+strip() | remove espaços em branco no início e no final de uma string.
+join() | junta os elementos de uma sequência em uma única string, usando um separador especificado.
 
 # Mundo 2
 *EM BREVE*
