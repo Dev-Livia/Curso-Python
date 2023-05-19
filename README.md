@@ -154,6 +154,27 @@ title() | converte a primeira letra de cada palavra em uma string para maiúscul
 strip() | remove espaços em branco no início e no final de uma string.
 join() | junta os elementos de uma sequência em uma única string, usando um separador especificado.
 
+
+### - Aula 10 - if... else
+O if...else é uma estrutura de controle utilizada em programação para tomar decisões com base em uma condição.
+Ela permite que o programa execute diferentes blocos de código dependendo se uma determinada condição é verdadeira ou falsa.
+
+Simplificando, o if verifica se uma condição é verdadeira. Se a condição for verdadeira, o bloco de código dentro do if é executado. Caso contrário,
+o programa pode executar um bloco de código alternativo dentro do else.
+
+```
+idade = 18
+
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
+```
+
+Neste exemplo, o programa verifica se a variável idade é maior ou igual a 18. Se for, ele imprime a mensagem "Você é maior de idade". Caso contrário, ou seja, se a condição for falsa, ele imprime a mensagem "Você é menor de idade".
+
+O if...else permite que você tome diferentes caminhos de execução com base em condições, o que é útil para lidar com situações em que o comportamento do programa precisa variar dependendo dos valores das variáveis ou de outros fatores.
+
 # Mundo 2
 *EM BREVE*
 
