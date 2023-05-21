@@ -4,9 +4,7 @@
 #– Até 19 anos: JÚNIOR
 #– Até 25 anos: SÊNIOR
 #– Acima de 25 anos: MASTER
-
 from datetime import datetime
-
 
 print('----- Confederação Nacional de Natação -----')
 Ano_Nasc = int(input('Digite seu ano de nascimento: '))
