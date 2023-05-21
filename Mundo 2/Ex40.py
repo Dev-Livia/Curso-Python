@@ -9,7 +9,7 @@ Média = (N1 + N2) / 2
 print('Tirando {:.1f} e {:.1f}, a média do aluno é {:.1f}'.format(N1, N2, Média))
 if Média < 5.0:
     print('Aluno está REPROVADO')
-elif Média < 6.9:
+elif Média >= 5.0 and Média <= 6.9:
     print('Aluno está RECUPERAÇÃO')
 else:
     print('Aluno está APROVADO')
