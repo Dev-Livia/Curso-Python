@@ -14,4 +14,4 @@ Opção = int(input('Qual a opção? '))
 
 if Opção == 1:
     Total = Produto - (Produto * 10 / 100)
-    print('O produto custava R${} e com o desconto de 10% passou a ser {}'.format(Produto, Total))
+    print('O produto custava R${} e com o desconto de 10% passou a ser R${}'.format(Produto, Total))
