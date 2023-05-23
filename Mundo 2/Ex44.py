@@ -10,6 +10,8 @@ print('''[ 1 ] Á vista dinheiro/cheque
          [ 2 ] Á vista no cartão
          [ 3 ] 2x no cartão
          [ 4 ] 3x no cartão''')
-Produto = int(input('Qual a opção? '))
+Opção = int(input('Qual a opção? '))
 
-Dinheiro = 
+if Opção == 1:
+    Total = Produto - (Produto * 10 / 100)
+    print('O produto custava R${} e com o desconto de 10% passou a ser {}'.format(Produto, Total))
