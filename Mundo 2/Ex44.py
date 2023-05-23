@@ -5,3 +5,11 @@
 #– 3x ou mais no cartão: 20% de juros
 
 Produto = float(input('Informe o valor do produto:R$ '))
+print('FORMAS DE PAGAMENTO')
+print('''[ 1 ] Á vista dinheiro/cheque
+         [ 2 ] Á vista no cartão
+         [ 3 ] 2x no cartão
+         [ 4 ] 3x no cartão''')
+Produto = int(input('Qual a opção? '))
+
+Dinheiro = 
