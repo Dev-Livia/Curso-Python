@@ -87,6 +87,7 @@ Está captalizada?  True
 
 ```
 
+
 ### - Aula 7 
 Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. 
 Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
@@ -120,7 +121,7 @@ Import Random | Ao execultar esse código ele vai importar tudo o que existe den
 From Random Import randint| Ao execultar este código, Voçê importará apenas o item escolhido 
 
 # - Vamos aprender um pouco sobre algumas funcionalidades dos módulos?
-## - Módulo matc
+## - Módulo math
 ceil | faz arredondamento para cima 
 :---: | ---: 
 floor | faz arredondamento para baixo
@@ -174,6 +175,129 @@ else:
 Neste exemplo, o programa verifica se a variável idade é maior ou igual a 18. Se for, ele imprime a mensagem "Você é maior de idade". Caso contrário, ou seja, se a condição for falsa, ele imprime a mensagem "Você é menor de idade".
 
 O if...else permite que você tome diferentes caminhos de execução com base em condições, o que é útil para lidar com situações em que o comportamento do programa precisa variar dependendo dos valores das variáveis ou de outros fatores.
+
+
+### - Aula 12 - Condições Aninhadas
+
+Condições aninhadas são estruturas de decisão que permitem que um bloco de código condicional seja colocado dentro de outro bloco de código condicional. Essa aninhamento permite uma lógica mais complexa e granular em seu programa. 
+
+```
+x = 10
+
+if x > 0:
+    if x > 5:
+        print("x é maior que 5")
+    else:
+        print("x é menor ou igual a 5")
+else:
+    print("x é igual a 0 ou menor")
+
+
+```
+Neste exemplo, temos uma estrutura de decisão aninhada. Primeiro, verificamos se x é maior que zero. Se for, entramos no bloco de código interno e verificamos se x é maior que 5. Se essa condição for verdadeira, a mensagem "x é maior que 5" será impressa. Caso contrário, se x for menor ou igual a 5, a mensagem "x é menor ou igual a 5" será impressa. Por fim, se x for igual a zero ou menor, a mensagem "x é igual a 0 ou menor" será impressa.
+
+No exemplo acima, se x tiver o valor 10, a saída será:
+
+```
+x é maior que 5
+```
+
+As condições aninhadas permitem que você lide com lógicas mais complexas, onde você precisa considerar múltiplas condições em diferentes níveis de aninhamento. No entanto, tenha cuidado para manter o código legível e evitar aninhamentos excessivos, pois isso pode tornar o código mais difícil de entender e dar manutenção.
+
+### - Aula 13 - Estrutura de repetição for
+A estrutura de repetição for em Python é usada para iterar sobre uma sequência (como uma lista, uma string, um dicionário, etc.) ou outro objeto iterável. Ela permite executar um bloco de código para cada elemento na sequência, até que todos os elementos tenham sido percorridos.
+
+A sintaxe básica do loop for é a seguinte:
+```
+for elemento in sequência:
+    # Código a ser executado para cada elemento
+
+```
+O bloco de código dentro do for será executado para cada elemento na sequência, onde o elemento assume o valor de cada item da sequência em cada iteração.
+
+Aqui está um exemplo simples para ilustrar o uso do loop for:
+```
+frutas = ["maçã", "banana", "laranja"]
+
+for fruta in frutas:
+    print(fruta)
+
+print("Loop concluído")
+
+```
+Neste exemplo, temos uma lista de frutas e queremos imprimir cada uma delas. Utilizamos o loop for para percorrer a lista frutas. A cada iteração, o elemento atual da lista é atribuído à variável fruta, e imprimimos o valor dessa variável. Após o término do loop, a mensagem "Loop concluído" é exibida.
+
+A saída para este exemplo será:
+
+```
+maçã
+banana
+laranja
+Loop concluído
+
+```
+
+Você também pode usar a função range() junto com o loop for para iterar um número específico de vezes. A função range() retorna uma sequência de números e é comumente usada com o loop for para criar um loop com um número fixo de iterações.
+
+Aqui está um exemplo:
+
+```
+for i in range(5):
+    print(i)
+
+print("Loop concluído")
+```
+
+Neste exemplo, usamos range(5) para criar uma sequência de números de 0 a 4. O loop for itera sobre esses números e os imprime. Após o término do loop, a mensagem "Loop concluído" é exibida.
+
+A saída será:
+
+```
+0
+1
+2
+3
+4
+Loop concluído
+
+```
+
+### - Aula 14 -  Estrutura de repetição while
+
+A estrutura de repetição while em Python é usada para repetir um bloco de código enquanto uma condição específica for verdadeira. Ao contrário do loop for, que itera sobre uma sequência predefinida, o loop while continua executando até que a condição especificada seja avaliada como falsa.
+
+A sintaxe básica do loop while é a seguinte:
+```
+while condição:
+    # Código a ser executado enquanto a condição for verdadeira
+```
+O bloco de código dentro do while será repetido até que a condição seja avaliada como falsa. É importante garantir que haja uma condição dentro do loop que eventualmente se torne falsa, caso contrário, o loop continuará executando indefinidamente, resultando em um "loop infinito".
+
+Aqui está um exemplo simples para ilustrar o uso do loop while:
+
+``` 
+contador = 0
+
+while contador < 5:
+    print("O contador é", contador)
+    contador += 1
+
+print("Loop concluído")
+
+```
+Neste exemplo, inicializamos a variável contador com o valor 0. O loop while continuará executando enquanto o valor do contador for menor que 5. A cada iteração do loop, o valor atual do contador é impresso na tela e, em seguida, incrementamos o valor do contador em 1. O loop continuará executando até que o contador atinja o valor 5, momento em que a condição se tornará falsa e o loop será encerrado. Após o término do loop, a mensagem "Loop concluído" é exibida.
+
+A saída desse exemplo será:
+
+```
+O contador é 0
+O contador é 1
+O contador é 2
+O contador é 3
+O contador é 4
+Loop concluído
+
+```
 
 # Mundo 2
 *EM BREVE*
