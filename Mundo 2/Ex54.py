@@ -1,8 +1,8 @@
 #Exercício Python 54: Crie um programa que leia o ano de nascimento de sete pessoas. No final, mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores.
 from datetime import date
 contM = contMenor = 0
-for pessoas in range(1,8):
-    Dta_Nasc = int(input('Informe seu ano de nascimento: '))
+for c in range(1,8):
+    Dta_Nasc = int(input(f'Em que ano a {c}ª pessoa nasceu? '))
     Ano_Atual = date.today().year
     Idade =  Ano_Atual - Dta_Nasc
     if Idade >= 18:
