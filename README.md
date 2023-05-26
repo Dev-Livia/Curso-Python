@@ -176,6 +176,35 @@ Neste exemplo, o programa verifica se a variável idade é maior ou igual a 18. 
 
 O if...else permite que você tome diferentes caminhos de execução com base em condições, o que é útil para lidar com situações em que o comportamento do programa precisa variar dependendo dos valores das variáveis ou de outros fatores.
 
+
+### - Aula 12 - Condições Aninhadas
+
+Condições aninhadas são estruturas de decisão que permitem que um bloco de código condicional seja colocado dentro de outro bloco de código condicional. Essa aninhamento permite uma lógica mais complexa e granular em seu programa. 
+
+```
+x = 10
+
+if x > 0:
+    if x > 5:
+        print("x é maior que 5")
+    else:
+        print("x é menor ou igual a 5")
+else:
+    print("x é igual a 0 ou menor")
+
+
+```
+Neste exemplo, temos uma estrutura de decisão aninhada. Primeiro, verificamos se x é maior que zero. Se for, entramos no bloco de código interno e verificamos se x é maior que 5. Se essa condição for verdadeira, a mensagem "x é maior que 5" será impressa. Caso contrário, se x for menor ou igual a 5, a mensagem "x é menor ou igual a 5" será impressa. Por fim, se x for igual a zero ou menor, a mensagem "x é igual a 0 ou menor" será impressa.
+
+No exemplo acima, se x tiver o valor 10, a saída será:
+
+```
+x é maior que 5
+```
+
+As condições aninhadas permitem que você lide com lógicas mais complexas, onde você precisa considerar múltiplas condições em diferentes níveis de aninhamento. No entanto, tenha cuidado para manter o código legível e evitar aninhamentos excessivos, pois isso pode tornar o código mais difícil de entender e dar manutenção.
+
+
 ### - Aula 14 -  Estrutura de repetição while
 
 A estrutura de repetição while em Python é usada para repetir um bloco de código enquanto uma condição específica for verdadeira. Ao contrário do loop for, que itera sobre uma sequência predefinida, o loop while continua executando até que a condição especificada seja avaliada como falsa.
