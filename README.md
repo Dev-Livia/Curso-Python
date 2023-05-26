@@ -204,6 +204,63 @@ x é maior que 5
 
 As condições aninhadas permitem que você lide com lógicas mais complexas, onde você precisa considerar múltiplas condições em diferentes níveis de aninhamento. No entanto, tenha cuidado para manter o código legível e evitar aninhamentos excessivos, pois isso pode tornar o código mais difícil de entender e dar manutenção.
 
+### - Aula 13 - Estrutura de repetição for
+A estrutura de repetição for em Python é usada para iterar sobre uma sequência (como uma lista, uma string, um dicionário, etc.) ou outro objeto iterável. Ela permite executar um bloco de código para cada elemento na sequência, até que todos os elementos tenham sido percorridos.
+
+A sintaxe básica do loop for é a seguinte:
+```
+for elemento in sequência:
+    # Código a ser executado para cada elemento
+
+```
+O bloco de código dentro do for será executado para cada elemento na sequência, onde o elemento assume o valor de cada item da sequência em cada iteração.
+
+Aqui está um exemplo simples para ilustrar o uso do loop for:
+```
+frutas = ["maçã", "banana", "laranja"]
+
+for fruta in frutas:
+    print(fruta)
+
+print("Loop concluído")
+
+```
+Neste exemplo, temos uma lista de frutas e queremos imprimir cada uma delas. Utilizamos o loop for para percorrer a lista frutas. A cada iteração, o elemento atual da lista é atribuído à variável fruta, e imprimimos o valor dessa variável. Após o término do loop, a mensagem "Loop concluído" é exibida.
+
+A saída para este exemplo será:
+
+```
+maçã
+banana
+laranja
+Loop concluído
+
+```
+
+Você também pode usar a função range() junto com o loop for para iterar um número específico de vezes. A função range() retorna uma sequência de números e é comumente usada com o loop for para criar um loop com um número fixo de iterações.
+
+Aqui está um exemplo:
+
+```
+for i in range(5):
+    print(i)
+
+print("Loop concluído")
+```
+
+Neste exemplo, usamos range(5) para criar uma sequência de números de 0 a 4. O loop for itera sobre esses números e os imprime. Após o término do loop, a mensagem "Loop concluído" é exibida.
+
+A saída será:
+
+```
+0
+1
+2
+3
+4
+Loop concluído
+
+```
 
 ### - Aula 14 -  Estrutura de repetição while
 
