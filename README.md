@@ -87,6 +87,7 @@ Está captalizada?  True
 
 ```
 
+
 ### - Aula 7 
 Nessa aula, vamos aprender quais são os operadores aritméticos do Python e também sua ordem de precedência dentro de expressões matemáticas. 
 Veja como funcionam os operadores de adição, subtração, multiplicação, divisão, exponenciação e quociente na linguagem Python.
@@ -120,7 +121,7 @@ Import Random | Ao execultar esse código ele vai importar tudo o que existe den
 From Random Import randint| Ao execultar este código, Voçê importará apenas o item escolhido 
 
 # - Vamos aprender um pouco sobre algumas funcionalidades dos módulos?
-## - Módulo matc
+## - Módulo math
 ceil | faz arredondamento para cima 
 :---: | ---: 
 floor | faz arredondamento para baixo
@@ -174,6 +175,43 @@ else:
 Neste exemplo, o programa verifica se a variável idade é maior ou igual a 18. Se for, ele imprime a mensagem "Você é maior de idade". Caso contrário, ou seja, se a condição for falsa, ele imprime a mensagem "Você é menor de idade".
 
 O if...else permite que você tome diferentes caminhos de execução com base em condições, o que é útil para lidar com situações em que o comportamento do programa precisa variar dependendo dos valores das variáveis ou de outros fatores.
+
+### - Aula 14 -  Estrutura de repetição while
+
+A estrutura de repetição while em Python é usada para repetir um bloco de código enquanto uma condição específica for verdadeira. Ao contrário do loop for, que itera sobre uma sequência predefinida, o loop while continua executando até que a condição especificada seja avaliada como falsa.
+
+A sintaxe básica do loop while é a seguinte:
+```
+while condição:
+    # Código a ser executado enquanto a condição for verdadeira
+```
+O bloco de código dentro do while será repetido até que a condição seja avaliada como falsa. É importante garantir que haja uma condição dentro do loop que eventualmente se torne falsa, caso contrário, o loop continuará executando indefinidamente, resultando em um "loop infinito".
+
+Aqui está um exemplo simples para ilustrar o uso do loop while:
+
+``` 
+contador = 0
+
+while contador < 5:
+    print("O contador é", contador)
+    contador += 1
+
+print("Loop concluído")
+
+```
+Neste exemplo, inicializamos a variável contador com o valor 0. O loop while continuará executando enquanto o valor do contador for menor que 5. A cada iteração do loop, o valor atual do contador é impresso na tela e, em seguida, incrementamos o valor do contador em 1. O loop continuará executando até que o contador atinja o valor 5, momento em que a condição se tornará falsa e o loop será encerrado. Após o término do loop, a mensagem "Loop concluído" é exibida.
+
+A saída desse exemplo será:
+
+```
+O contador é 0
+O contador é 1
+O contador é 2
+O contador é 3
+O contador é 4
+Loop concluído
+
+```
 
 # Mundo 2
 *EM BREVE*
