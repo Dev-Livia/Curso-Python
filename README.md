@@ -177,6 +177,9 @@ Neste exemplo, o programa verifica se a variável idade é maior ou igual a 18. 
 O if...else permite que você tome diferentes caminhos de execução com base em condições, o que é útil para lidar com situações em que o comportamento do programa precisa variar dependendo dos valores das variáveis ou de outros fatores.
 
 
+
+
+# Mundo 2
 ### - Aula 12 - Condições Aninhadas
 
 Condições aninhadas são estruturas de decisão que permitem que um bloco de código condicional seja colocado dentro de outro bloco de código condicional. Essa aninhamento permite uma lógica mais complexa e granular em seu programa. 
@@ -298,9 +301,6 @@ O contador é 4
 Loop concluído
 
 ```
-
-# Mundo 2
-*EM BREVE*
 
 # Mundo 3 
 ## Aula 16 - Tuplas 
