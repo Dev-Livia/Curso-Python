@@ -3,7 +3,7 @@ Lista = []
 Menor = Maior =  None
 
 for C in range(0, 5):
-    Num = int(input('Digite um número: '))
+    Num = int(input(f'Digite um valor na posição {C}: '))
     Lista.append(Num)
     if Menor is None or Num < Menor:
         Menor = Num
@@ -11,7 +11,8 @@ for C in range(0, 5):
     if Maior is None or Num > Maior:
         Maior = Num
         Posição_Maior = C
-print(f' O menor número é: {Menor} na posição {Posição_Menor}')
+print(f'Os Valores digitados foram {Lista}')
 print('=' * 35)
+print(f' O menor número é: {Menor} na posição {Posição_Menor}')
 print(f'O maior número é: {Maior} na posição {Posição_Maior}')
 
